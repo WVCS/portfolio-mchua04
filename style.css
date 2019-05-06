@@ -1,21 +1,98 @@
-<!doctype html>
-<html>
-  <title>Michael Chua</title>
-  <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  </head>
-<body>
-  
-<ul>
-  <li><a class="active" href="">Home</a></li>
-  <li><a href="">News</a></li>
-  <li><a href="">Contact</a></li>
-  <li><a href="">About</a></li>
-</ul>
-  
+html {
+    background-color: #124559;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center  6vw;
+}
+body {
+ 
+  font-family: 'Roboto Slab', serif;
+  font-size:1.8vw;
+  color: #D3E6D9;
+}
+a {
+  color: #D3E6D9;
+}
 
-  <div id="row2b"><p>Michael<p>Chua</div>
+p{
+  position: absolute;
+  bottom: 0;  
+  margin-bottom: 0.4vw;
+}
+#row2b{
+  text-align:right;
+}
+#row2b > p{
+  font-family: 'Rozha One', serif;
+  position: relative;
+  font-size: 100px;
+}
+#row2b > p:nth-child(1){
+  margin-top: ;
+}
+#row2b > p:nth-child(2){
+  margin-top: -1vw;
+  font-size: 200px;
+}
+
+#grid {
+  
+  display: grid;
+  grid-gap: 1vw; 
+  grid-template-rows: 5vw;
+  grid-auto-rows: 9vw;
+  grid-template-columns: 1fr repeat(6, 3fr) 1fr;
+}
+
+#grid > div{
+  position: relative;
+  background-color:gray;
+  outline-style: solid;
+  outline-color:grey;
+  outline-width: 1vw;  \\ Same as grid gap
+}
+
+div#row1a,div#row2a,div#row3a,div#row3b,div#row4a,div#row5a,div#row5b,div#row6a,div#row7a,div#row8a,div#row9a,div#row10a,div#row12a{
+  background-color:rgba(64,67,78,0.4);
+}
+
+#row1a, div#row5a{
+  grid-column-end: span 3;
+}
+#row1b, div#row2b, div#row3b, div#row5c, div#row8a, div#row8b, div#row9a, div#row12a{
+  grid-column-end: span 2;
+  
+}
+div#row2b{
+  grid-row-end: span 2;
+  text-align:center;
+}
+
+#filler {
+  width: 100vw;
+  height: 30vw;
+  background-color:white;
+  margin-left: -1vw;
+}
+ul {
+  border:5px solid lightgrey;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}

@@ -12,19 +12,19 @@ body {
 }
 a {
   color: #F0F2E8;
-  font-size:25px;
+  font-size:20px;
 }
 
-p{
+p {
     color:#F0F2E8;
-  position: absolute;
-  bottom: 0;  
-  margin-bottom: 0.4vw;
+
 }
 #row2b{
   text-align:right;
 }
 #row2b > p{
+    bottom: 0;  
+  margin-bottom: 0.4vw;
   font-family: 'Rozha One', serif;
   position: relative;
   font-size: 50px;
@@ -37,45 +37,15 @@ p{
   font-size: 75px;
 }
 
-#grid {
-  
-  display: grid;
-  grid-gap: 1vw; 
-  grid-template-rows: 5vw;
-  grid-auto-rows: 9vw;
-  grid-template-columns: 1fr repeat(6, 3fr) 1fr;
-}
-
-#grid > div{
-  position: relative;
-  background-color:gray;
-  outline-style: solid;
-  outline-color:grey;
-  outline-width: 1vw;  \\ Same as grid gap
-}
-
-div#row1a,div#row2a,div#row3a,div#row3b,div#row4a,div#row5a,div#row5b,div#row6a,div#row7a,div#row8a,div#row9a,div#row10a,div#row12a{
-  background-color:rgba(64,67,78,0.4);
-}
-
-#row1a, div#row5a{
-  grid-column-end: span 3;
-}
-#row1b, div#row2b, div#row3b, div#row5c, div#row8a, div#row8b, div#row9a, div#row12a{
-  grid-column-end: span 2;
-  
+#row2b > p:nth-child(3){
+  margin-top:0;
+  font-size:35px;
 }
 div#row2b{
-  grid-row-end: span 2;
+
   text-align:center;
 }
 
-#filler {
-  width: 100vw;
-  height: 30vw;
-  background-color:white;
-  margin-left: -1vw;
-}
 ul {
   border:5px solid lightgrey;
   list-style-type: none;
@@ -98,3 +68,10 @@ li a {
 li a:hover {
   background-color: #111;
 }
+.cracker{
+  border: 5px solid white;
+  padding:50px;
+  margin-top:50px;
+ 
+}
+

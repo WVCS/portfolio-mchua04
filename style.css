@@ -16,6 +16,7 @@ a {
 img{
     border: 5px solid white;
     margin:5px;
+    float:left;
    
 }
 p {
@@ -79,3 +80,6 @@ li a:hover {
 }
 
 @media only screen and (max-width:600px;)
+#row2b{
+ font-size:;   
+}

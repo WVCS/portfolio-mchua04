@@ -57,24 +57,25 @@ ul {
   background-color: #333;
 }
 
-li {
-display:block;
+li.f{
+float:left;
  
 }
 li.asdf{
-
+display:block;
+    float:right;
 }
 
-li a {
+li.asdf a{
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
- position:static;
+
 }
 
-li a:hover {
+li.asdf a:hover {
   background-color: #111;
 }
 .cracker{

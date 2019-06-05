@@ -59,12 +59,11 @@ ul {
 
 li {
     margin-left:-100px;
-    display:left;
-  float: left;
+ 
 }
 li.asdf{
   float:right;
-  display:inline;
+
 }
 
 li a {

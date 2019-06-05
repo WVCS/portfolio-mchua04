@@ -62,8 +62,6 @@ display:block;
  
 }
 li.asdf{
-  float:right;
-   display:block;
 
 }
 
@@ -73,6 +71,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+ position:static;
 }
 
 li a:hover {

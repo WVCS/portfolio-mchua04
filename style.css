@@ -58,6 +58,7 @@ ul {
 }
 
 li {
+    display:left;
   float: left;
 }
 

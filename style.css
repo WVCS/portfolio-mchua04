@@ -1,8 +1,6 @@
 html {
     background-color:#00577F;
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    background-position: center  6vw;
+
 }
 body {
  
@@ -15,7 +13,9 @@ a {
   font-size:20px;
 }
 
-img{border: 5px solid white ;
+img{
+    border: 5px solid white;
+    padding:5px;
 }
 p {
     color:#F0F2E8;
@@ -77,3 +77,4 @@ li a:hover {
  
 }
 
+@media only screen and (max-width:600px;)

@@ -62,6 +62,10 @@ li {
     display:left;
   float: left;
 }
+li.asdf{
+  float:right;
+  display:inline;
+}
 
 li a {
   display: block;

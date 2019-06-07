@@ -161,8 +161,8 @@ a.link{
 }
 
 .text {
-  background-color:white;
-  color:  ##00577F;
+  background-color:lightgrey;
+  color:#00577F;
   font-size: 16px;
   padding: 16px 32px;
 }
